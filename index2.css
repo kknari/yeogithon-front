@@ -300,8 +300,34 @@ header {
     height: 522px;
     left: 0px;
     top: 1561px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     background: #F3F8FB;
+  }
+
+  .sub_news, .sub_news th, .sub_news td {border: 0}
+  .sub_news a {color: black; text-decoration: none;}
+  .sub_news {
+    width: 100%;
+    /* border-bottom: 1px solid #89BAD9; */
+    font-size: 20px;
+    text-align: center;
+  }
+  .sub_news th {
+    padding: 15px;
+    border-bottom: solid 2px #89BAD9;
+    color: #969696;
+  }
+
+  .sub_news td {
+    padding: 15px;
+    border-bottom: solid 1px #89BAD9;
+  }
+
+  .t-name, .t-answer {
+    color: #969696;
   }
 
   .text-sub {
