@@ -1,0 +1,129 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+* { 
+font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+}
+
+.menu-bar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin: 80px;
+    padding: 10px;
+    background-color: #f3f3f3;
+    border-radius: 20%;
+    text-align: center;
+    
+}
+.menu {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.menu-bar li {display: inline; padding: 40px;}
+.menu-bar li a {text-decoration: none; color: black;}
+
+.search {
+    position: relative;
+    width: 250px;
+    float: right;
+}
+
+.search-icon {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  right: -10px;
+  top: 9px;
+}
+
+.search-input {
+    width: 100%;
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+    margin: 8px 0px;
+    font-weight: bold;
+  }
+  .name::before,
+  .name::after {
+    content: "";
+    flex-grow: 1;
+    background: #d9d9d9;
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 16px;
+  }
+
+  .many-watch {
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .many-watch li {
+    list-style: none;
+    display: inline;
+    margin: 40px;
+  }
+
+  .many-watch li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .many-watch li a:hover {
+    color: #89bad9;
+    text-decoration: underline;
+  }
+
+  .many-text {
+    background-color: rgba(137, 186, 217, 10%);
+    width: 1920px;
+    height: 400px;
+    display: inline-block;
+  }
+
+  .many-text h3 {
+    color: #246A96;
+    margin-top: 50px;
+  }
+
+  .many-text h3, p {
+    margin-left: 10%;
+  }
