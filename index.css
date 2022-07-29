@@ -13,6 +13,7 @@ body {
     height: 70px;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .logo {
@@ -29,9 +30,13 @@ body {
     font-weight: bold;
 }
 
+.menu2 {
+  display: flex;
+  float: right;
+  position: absolute;
+}
 
-
-.menu-bar li {display: inline; padding: 40px;}
+.menu-bar li {display: flex; padding: 40px; float: left;}
 .menu-bar li a {text-decoration: none; color: black;}
 
 .search {
